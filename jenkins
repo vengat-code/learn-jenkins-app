@@ -32,7 +32,7 @@ pipeline {
             steps{
                 echo"Test stage"
                 sh'''
-                    test -e "/Build/index.html"
+                    test -e "/build/index.html"
 
                 '''
             }
